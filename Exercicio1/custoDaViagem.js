@@ -6,3 +6,4 @@ let distancia = tempoViagem * velocidadeMedia;
 let quantidadeLitros = distancia/consumoMedio;
 let custo = quantidadeLitros * precoLitro;
 console.log("custo da Viagem R$"+ custo);
+
