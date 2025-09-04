@@ -26,8 +26,7 @@ switch (media) {
         conta = Math.sqrt((n1 ** 2 + n2 ** 2 + n3 ** 2) / 3);;
         
         break;     
-        asdfa sdf asdfa sdfas dfasd asdf
-        asdfsdfsd sdfas dfsdf sdf s
+
                  
     default:
         strtipoMedia ="Invalido";
