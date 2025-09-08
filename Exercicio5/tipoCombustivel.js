@@ -5,6 +5,7 @@ const litros = 40;
 let precoLitro = 0;
 let combustivel = 0;
 
+
 if (opcao === 1) {
   precoLitro = 4.805;
   combustivel = "Álcool";
