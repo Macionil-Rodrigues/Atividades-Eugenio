@@ -14,9 +14,9 @@ function solicitarValores(readline) {
     });
 
 }
-function calcularVolumePiramide(valorBase, valorAltura, readline) {
+function calcularVolumePiramide(valorB, valorA, readline) {
     
-    const volume = 1.0 / 3.0 * (valorBase * valorAltura).toFixed(2);
+    const volume = 1.0 / 3.0 * (valorB * valorA).toFixed(2);
     console.log("Valor do volume é: " + volume);
     readline.close();
 }
