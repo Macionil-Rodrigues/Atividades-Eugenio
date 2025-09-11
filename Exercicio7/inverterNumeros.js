@@ -3,9 +3,9 @@ function startApp() {
         input: process.stdin,
         output: process.stdout
     });
-    solicitarValores(readline);
+    solicitarNumeros(readline);
 }
-function solicitarValores(readline) {
+function solicitarNumeros(readline) {
     readline.question('Insira um numero de 3 digitos: ', voltarNumero => {
         inverterNumero(voltarNumero, readline);
     });
