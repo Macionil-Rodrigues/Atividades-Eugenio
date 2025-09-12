@@ -28,3 +28,4 @@ não importa se ele digitar 10, 10%, 0.10 ou 0,10. Deve ser usado sempre que o v
 
 parseInt("11", 10); // resultado: 11  (decimal forçado) o ,10 é um radix que força a string ser conhecida como um int decimal
 parseFloat(valorA);//O parseFloat serve para pegar um texto (string) e transformar ele em um número decimal
+//O .toLowerCase() em JavaScript serve para converter uma string inteira para letras minúsculas.
