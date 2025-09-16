@@ -1,3 +1,5 @@
+const { ucs2 } = require("node:punycode");
+const uu = 1;
 function startApp() {
     const valorProduto = 100;
     let produtoAumento = 0;
