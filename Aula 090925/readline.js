@@ -17,7 +17,6 @@ function toNumber(v) {
 Deve ser usado para valores de dinheiro, quantidades ou qualquer número que não seja porcentagem.*/
 
 
-
 function toPercent(v) {
   let n = parseFloat(String(v).trim().replace(',', '.').replace('%',''));
   return (n > 1) ? n / 100 : n;

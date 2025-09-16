@@ -1,3 +1,5 @@
+const { availableParallelism } = require("os");
+
 const numero = 123;
 const unidade = numero %10;
 const dezena =Math.floor((numero%100)/10);
